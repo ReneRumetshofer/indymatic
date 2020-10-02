@@ -47,12 +47,12 @@ public abstract class Entry {
   /**
    * The subject this entry has.
    */
-  protected final String subject;
+  protected String subject;
 
   /**
    * The activity this entry has.
    */
-  protected final String activity;
+  protected String activity;
 
   /**
    * Constructor which expects the entry parts.
@@ -137,6 +137,14 @@ public abstract class Entry {
    */
   public String getActivity() {
     return activity;
+  }
+  
+  public void setSubject(String subject) {
+	  this.subject = subject;
+  }
+  
+  public void setActivity(String activityDescription) {
+	  this.activity = activityDescription;
   }
 
   /**

@@ -110,8 +110,7 @@ public class Config {
           }
         })
         .filter(
-            strings -> strings[0].equalsIgnoreCase(event.getEventContext().getDay()) || strings[0]
-                .equals(ANY))
+            strings -> strings[0].equalsIgnoreCase(event.getEventContext().getDay()) || strings[0].equals(ANY))
         .map(strings -> {
           if (strings[3].equalsIgnoreCase(TEACHER)) {
             return new TeacherEntry(event, strings);
