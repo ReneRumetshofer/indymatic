@@ -1,5 +1,5 @@
 # indymatic
-Automatic Indy enrolment system with random activity choosing. Forked from `git clone https://github.com/stnwtr/indymatic.git`.
+Automatic Indy enrolment system with random activity choosing. Forked from [https://github.com/stnwtr/indymatic](https://github.com/stnwtr/indymatic)
 
 ## Clone and set up
 Clone the repository by typing `git clone https://github.com/ReneRumetshofer/indymatic.git` in the terminal.
@@ -57,7 +57,7 @@ am : Binomialverteilungsübungen
 am : Übungen für Maturabereich Algebra und Geometrie
 ```
 One of the two activity lines will be chosen for one indy day.
-[This](https://github.com/ReneRumetshofer/indymatic/blob/master/src/main/resources/pool.cfg) is a sample file.
+[This](https://github.com/ReneRumetshofer/indymatic/blob/master/src/main/resources/pool.cfg) is a sample file you can use.
 
 ## Launching
 The tool needs to be built manually for launching. Alternatively a pre-built .JAR can be used (found in releases).
