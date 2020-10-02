@@ -3,20 +3,14 @@ package at.stnwtr.indymatic;
 import java.io.Console;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
-
-import org.json.JSONObject;
 
 import at.renerumetshofer.indymatic.entryPool.Activity;
 import at.renerumetshofer.indymatic.entryPool.ActivityPool;
 import at.stnwtr.indy4j.Indy;
 import at.stnwtr.indy4j.credentials.Credentials;
-import at.stnwtr.indy4j.entry.EntryType;
-import at.stnwtr.indy4j.entry.Floor;
-import at.stnwtr.indy4j.entry.House;
 import at.stnwtr.indy4j.entry.RequestEntry;
 import at.stnwtr.indy4j.event.EventContext;
 import at.stnwtr.indy4j.event.FutureEvent;
