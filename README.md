@@ -28,9 +28,10 @@ day : hour : priority : type : id : subject : activity
 * `activity` is the activity a student is planning to do (OBSOLETE FOR NOW; fill with dummy string)
 
 ### Examples
-Here are a few example lines for the priority file.
+Here are a few example lines for the priority file. Note: subject and activity strings have to be present, but won't be used. The activity (and subject) will be chosen 
+from the activity pool file.
 ```
-Mo : 3 : 1 : r : l01 : am : differentialgleichungen
+Mo : 3 : 1 : r : l01 : dummy : dummy
 Mo : 3 : 2 : t : ham : insy : mysql ddl dml dql
 ```
 [This](https://github.com/ReneRumetshofer/indymatic/blob/master/src/main/resources/priorities.cfg) is a sample file you could use as it is.
