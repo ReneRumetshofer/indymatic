@@ -24,7 +24,7 @@ day : hour : priority : type : id : subject : activity
 * `priority` determines the entry priority. `1` means highest priority, `2` is a lower priority and `3` is even lower (range from `1` to `n`)
 * `type` Can either be `T` for teacher or `T` for room.
 * `id` The id of the teacher or the room (`Ham`, `Er`, `L01`, `NTL2`)
-* `subject` is the subject to do in this indy lesson
+* `subject` is the subject to do in this indy lesson (OBSOLETE FOR NOW; fill with dummy string)
 * `activity` is the activity a student is planning to do (OBSOLETE FOR NOW; fill with dummy string)
 
 ### Examples
