@@ -17,22 +17,20 @@ The case of the entries does not matter.
 
 A line is structured as follows:
 ```
-day : hour : priority : type : id : subject : activity
+day : hour : priority : type : id
 ```
 * `day` is the day of the event (`Mo`, `Mi`, `Fr`)
 * `hour` is the hour the indy lesson is in (`3`, `4`)
 * `priority` determines the entry priority. `1` means highest priority, `2` is a lower priority and `3` is even lower (range from `1` to `n`)
 * `type` Can either be `T` for teacher or `T` for room.
 * `id` The id of the teacher or the room (`Ham`, `Er`, `L01`, `NTL2`)
-* `subject` is the subject to do in this indy lesson (OBSOLETE FOR NOW; fill with dummy string)
-* `activity` is the activity a student is planning to do (OBSOLETE FOR NOW; fill with dummy string)
 
 ### Examples
 Here are a few example lines for the priority file. Note: subject and activity strings have to be present, but won't be used. The activity (and subject) will be chosen 
 from the activity pool file.
 ```
-Mo : 3 : 1 : r : l01 : dummy : dummy
-Mo : 3 : 2 : t : ham : insy : mysql ddl dml dql
+Mo : 3 : 1 : r : l01
+Mo : 3 : 2 : t : ham
 ```
 [This](https://github.com/ReneRumetshofer/indymatic/blob/master/src/main/resources/priorities.cfg) is a sample file you could use as it is.
 

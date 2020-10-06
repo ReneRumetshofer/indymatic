@@ -26,7 +26,7 @@ public class Config {
   /**
    * The number of splitting chars.
    */
-  public static final int OCCURRENCES = 6;
+  public static final int OCCURRENCES = 4;
 
   /**
    * The splitting character.

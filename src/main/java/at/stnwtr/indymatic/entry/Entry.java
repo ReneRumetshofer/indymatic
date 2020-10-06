@@ -67,8 +67,11 @@ public abstract class Entry {
     this.hour = Integer.parseInt(entryParts[1]);
     this.priority = Integer.parseInt(entryParts[2]);
 
+    /* 
+    // Support dropped due to activity pool
     this.subject = entryParts[5];
     this.activity = entryParts[6];
+    */
   }
 
   /**
